@@ -1,11 +1,19 @@
-const map = (arr, fn) =>{
-  let arr2 = []
+const map = (arr, fn) => {
+  let arr2 = [];
+
   for(let i = 0; i < arr.length; i++ ){
-    arr2.push(fn(arr[i], i))
-  }
+    arr2.push(fn(arr[i], i));
+  };
   return arr2;
 }
  
+arr = [4,5,6];
+fn = function plusone(n) { return n + 1; }
+
+
+console.log(map(arr, fn))
+
+
 
 // Given an integer array arr and a mapping function fn, return a new array with a transformation applied to each element.
 
