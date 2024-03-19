@@ -7,7 +7,7 @@ var expect = function (val) {
         return true;
       }
     },
-    notBe: (num) => {
+    notToBe: (num) => {
       if (val === num){
         throw new Error('Equal')
       }else{
