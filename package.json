@@ -1,0 +1,12 @@
+{
+  "name": "30-days",
+  "version": "1.0.0",
+  "description": "Projeto 30 dias de JS resolvendo problemas do https://leetcode.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
